@@ -1,0 +1,51 @@
+.App {
+    background: rgba(255, 255, 255, 0.164);
+    margin-top: 100px;
+}
+
+.Container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background: rgb(243, 255, 244);
+    text-align: center;
+    border-radius: 10px;
+    border: 4px solid rgba(32, 33, 119, 0.246);
+}
+
+.Items {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Input {
+    display: flex;
+    margin: 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+
+.Btn {
+    border-radius: 50px;
+    margin: 10px;
+    margin-top: 020px;
+    background-color: rgb(20, 30, 71);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#test {
+    /* border: 1px solid red; */
+    padding: 15px;
+}
+
+#test:hover {
+    color: rgb(92, 106, 228);
+}
